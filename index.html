@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import { getDatabase } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-databse.js";
+    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAjtAHKd47zT2Jx1N9_p0swcmXKu82-vms",
+      authDomain: "login-59bae.firebaseapp.com",
+      projectId: "login-59bae",
+      storageBucket: "login-59bae.appspot.com",
+      messagingSenderId: "610123272788",
+      appId: "1:610123272788:web:1bf2f59c6a77dc046ad3c1"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const databse = getDatabase(app); 
+    const auth = getAuth(); 
+  </script>
+
+</html>
